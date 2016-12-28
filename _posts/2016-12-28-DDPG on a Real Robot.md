@@ -33,11 +33,7 @@ Implementing a NN in Keras is pretty straightforward but one caveat is that the 
 
 Design of the reward function is also one of the critical points in the implementation. Sparse rewards lead to a lot of exploration and you have a credit assignment problem. To ease these issues, I implemented a reward proportional to the distance to the target. This kind of 'guided exploration' led to faster learning. To acheive high-accuracy (<1cm) I augmented the euclidean distance reward with its log so that the combined reward would approach infinity asymptotically as the distance reached zero.  
 
-The state consisted of the current joint angles of the arm, the current position of the end-effector in cartesian space and the target position in cartesian coordinates.  A new target position was used for each episode by sampling a 0.25$$m^3$$ box around the origin with each episode running for 50 steps. The actions were performed in joint-space which meant the algorithm had raw control of the robot joints. The critic NN needs to approximate the following formula:
-
-$$
-reward = norm(targetCartesianCoordinates-(currentCartesianCoordinates + convert2CartesianSpace(jointSpaceActions))
-$$
+The state consisted of the current joint angles of the arm, the current position of the end-effector in cartesian space and the target position in cartesian coordinates.  A new target position was used for each episode by sampling a 0.25mx0.25mx0.25m box around the origin with each episode running for 50 steps. The actions were performed in joint-space which meant the algorithm had raw control of the robot joints.
 
 ## Results
 
