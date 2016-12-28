@@ -4,8 +4,8 @@ title: Using Reinforcement Learning to Perform Motion Planning for a YuMi Robot
 ---
 
 **An implementation of the Deep Deterministic Policy Gradient (DDPG) algorithm using Keras/Tensorflow with the robot simulated using ROS/Gazebo/MoveIt!** 
-
-![example0](output0.gif)
+ 
+![example0]({{ site.baseurl }}/_posts/output0.gif)
 
 ## Introduction
 
@@ -41,11 +41,11 @@ $reward = norm(targetCartesianCoordinates-(currentCartesianCoordinates + convert
 
 Here are some videos of the robot arm achieving different target poses from different starting positions. 
 
-![example1](output1.gif)
+![example1]({{ site.baseurl }}/_posts/output1.gif)
 
-![example2](output2.gif)
+![example2]({{ site.baseurl }}/_posts/output2.gif)
 
-![example3](output5.gif)
+![example3]({{ site.baseurl }}/_posts/output5.gif)
 
 ## Conclusions 
 
