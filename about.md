@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am a researcher/research engineer working on applied solutions for robotics using machine/deep learning and reinforcement learning techniques
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+In a previous life, I worked on circuit design for high-speed serial IO. 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+s dot parikh at utoronto dot ca
