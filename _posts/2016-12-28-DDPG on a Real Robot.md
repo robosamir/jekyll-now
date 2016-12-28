@@ -5,7 +5,7 @@ title: Using Reinforcement Learning to Perform Motion Planning for a YuMi Robot
 
 **An implementation of the Deep Deterministic Policy Gradient (DDPG) algorithm using Keras/Tensorflow with the robot simulated using ROS/Gazebo/MoveIt!** 
  
-![example0](_posts/output0.gif)
+![example0]({{ site.baseurl }}/images/output0.gif)
 
 ## Introduction
 
