@@ -41,11 +41,11 @@ $reward = norm(targetCartesianCoordinates-(currentCartesianCoordinates + convert
 
 Here are some videos of the robot arm achieving different target poses from different starting positions. 
 
-![example1]({{ site.baseurl }}/_posts/output1.gif)
+![example1]({{ site.baseurl }}/images/output1.gif)
 
-![example2]({{ site.baseurl }}/_posts/output2.gif)
+![example2]({{ site.baseurl }}/images/output2.gif)
 
-![example3]({{ site.baseurl }}/_posts/output5.gif)
+![example3]({{ site.baseurl }}/images/output5.gif)
 
 ## Conclusions 
 
