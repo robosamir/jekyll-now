@@ -35,7 +35,7 @@ Design of the reward function is also one of the critical points in the implemen
 
 The state consisted of the current joint angles of the arm, the current position of the end-effector in cartesian space and the target position in cartesian coordinates.  A new target position was used for each episode by sampling a 0.25\\(m^3\\) box around the origin with each episode running for 50 steps. The actions were performed in joint-space which meant the algorithm had raw control of the robot joints. The critic NN needs to approximate the following formula:
 
-$$reward = norm(targetCartesianCoordinates-(currentCartesianCoordinates + convert2CartesianSpace(jointSpaceActions))$$
+\\(reward = norm(targetCartesianCoordinates-(currentCartesianCoordinates + convert2CartesianSpace(jointSpaceActions))\\)
 
 ## Results
 
